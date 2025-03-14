@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: Librarian-Profile
+  config:
+    import: optional:configserver:http://localhost:1111

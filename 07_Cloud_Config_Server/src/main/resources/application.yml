@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: Cloud-Config-Server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/gunjan1005/configuration_properties
+          clone-on-start: true
+
+server:
+  port: 1111
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

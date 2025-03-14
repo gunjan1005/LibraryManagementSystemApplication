@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: Book-Management
+  config:
+    import: optional:configserver:http://localhost:1111

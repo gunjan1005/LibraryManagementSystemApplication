@@ -1,0 +1,38 @@
+Port Number Details-
+-------------------------
+
+
+1. User-Authentication-Service
+   Port No-8080
+
+2. Librarian_Profile_Service
+   Port Number-8081
+
+3. Book_Management-Service
+   Port Number-8082
+
+4. Booking_Status_Service
+   Port Number-8083
+
+5. Api-Gateway-Service
+   Port Number-3333
+
+6. Service-Registry-Service
+   Port Number-8751
+
+7. Admin Server
+   Port Number- 9999
+
+8. Zipkin Server
+   Port Number-9411
+
+9. Config server
+   port number-1111
+   git repository for configuration file - https://github.com/gunjan1005/configuration_properties
+
+10. Swagger runs on-
+   http://localhost:8080/swagger-ui.html - User-Authentication-Service
+   http://localhost:8081/swagger-ui.html - Library-Management-System
+
+   
+
